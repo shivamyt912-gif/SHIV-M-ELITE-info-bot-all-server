@@ -18,7 +18,7 @@ import base64
 
 MAIN_KEY = base64.b64decode('WWcmdGMlREV1aDYlWmNeOA==')
 MAIN_IV = base64.b64decode('Nm95WkRyMjJFM3ljaGpNJQ==')
-RELEASEVERSION = "OB52"
+RELEASEVERSION = "OB53"
 USERAGENT = "Dalvik/2.1.0 (Linux; U; Android 13; CPH2095 Build/RKQ1.211119.001)"
 SUPPORTED_REGIONS = {"IND", "BR", "US", "SAC", "NA", "SG", "RU", "ID", "TW", "VN", "TH", "ME", "PK", "CIS", "BD", "EUROPE"}
 
@@ -56,7 +56,7 @@ def get_account_credentials(region: str) -> str:
     elif r in {"BR", "US", "SAC", "NA"}:
         return "uid=457396233246&password=DANGER-FIGHHSICFFXP-CORE"
     else:
-        return "uid=457407585753&password=DANGHGER-US9AOMZTZ-CBORE"
+        return "uid=4691098298&password=018B8D0CD25D5211D1605A9AAA83822260DB7D9BD2109A7A6B5472259C4985E2"
 
 # === Token Generation ===
 
