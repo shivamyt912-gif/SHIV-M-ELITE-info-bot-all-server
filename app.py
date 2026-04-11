@@ -52,11 +52,11 @@ async def json_to_proto(json_data: str, proto_message: Message) -> bytes:
 def get_account_credentials(region: str) -> str:
     r = region.upper()
     if r == "IND":
-        return "uid=4421504713&password=JOBAYAR_CODX-64IGDYZCD"
+        return "uid=46531899682&password=MICHAEL_RIZER_EY1ZKKGO"
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid=4044223479&password=EB067625F1E2CB705C7561747A46D502480DC5D41497F4C90F3FDBC73B8082ED"
+        return "uid=457396233246&password=DANGER-FIGHHSICFFXP-CORE"
     else:
-        return "uid=4660781076&password=jshsjs_T7BNL_BY_SPIDEERIO_GAMING_2R92G"
+        return "uid=457407585753&password=DANGHGER-US9AOMZTZ-CBORE"
 
 # === Token Generation ===
 
@@ -178,4 +178,4 @@ async def startup():
 
 if __name__ == '__main__':
     asyncio.run(startup())
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5009, debug=True)
