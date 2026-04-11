@@ -56,7 +56,7 @@ def get_account_credentials(region: str) -> str:
     elif r in {"BR", "US", "SAC", "NA"}:
         return "uid=457396233246&password=DANGER-FIGHHSICFFXP-CORE"
     else:
-        return "uid=4626846042&password=B9EA9EC09AA6710E46CDB428BEA89EA0157F0B07FE788A207A26D2654866C8BB"
+        return "uid=4282292864&password=861FD95120F661D0EF255043B98B678382B70C6D373915A6770463F3D681E7C4"
 
 # === Token Generation ===
 
